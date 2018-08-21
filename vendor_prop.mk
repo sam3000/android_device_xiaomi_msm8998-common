@@ -180,3 +180,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wlan
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# adb root
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.root_access=2
